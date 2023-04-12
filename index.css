@@ -262,7 +262,17 @@ ul {
         font-size: 1.125rem;
     }
     
-   
+    .yarn,
+    .concept,
+    .back-img{
+    
+        background-repeat: no-repeat; 
+        background-size:cover; 
+        background-position: center;
+        height: 30%; width: 100%;
+        background-attachment: fixed;
+        z-index: -10; 
+    }
 
 
 
