@@ -136,17 +136,22 @@ html::before{
     height: 30%; width: 100%;
     background-attachment: fixed;
     position: fixed;
-    z-index: -10;
 }
 
 .back-img {
     background-image: url(images/light-fabrics.jpeg);
+    z-index: -10;
+
 }
 .concept{
     background-image: url(images/dusty-fabrics.jpeg);
+    z-index: -9;
+
 }
 .yarn{
     background-image: url(images/garn.jpeg);
+    z-index: -8;
+
 }
 
 
