@@ -86,9 +86,6 @@ a:active {
 /* ----- LAYOUT ----- */
 
  
-section, 
-footer {
-}
 
 header, 
 .section-two {
@@ -116,14 +113,6 @@ header,
     margin: 0 auto;
 }
 
-.back-img {
-    background-image: url(images/light-fabrics.jpeg);
-	background-repeat: no-repeat; 
-	background-size:cover; 
-	background-attachment:fixed;
-    height: 10em;
-    width: 100%;
-}
 
 
 .section-two {
@@ -131,18 +120,21 @@ header,
 }
 
 
+.yarn,
+.concept,
+.back-img{
 
-
-
-.yarn .concept{
-	background-repeat: no-repeat; 
+    background-repeat: no-repeat; 
 	background-size:cover; 
-	background-attachment:fixed;
-    height: 10em;
-    width: 100%;
-    margin: 100px
+    background-position: center;
+    height: 30%; width: 100%;
+    background-attachment: fixed;
+    z-index: -10; 
 }
 
+.back-img {
+    background-image: url(images/light-fabrics.jpeg);
+}
 .concept{
     background-image: url(images/dusty-fabrics.jpeg);
 }
@@ -270,14 +262,10 @@ ul {
         font-size: 1.125rem;
     }
     
-    .feature-image {
-    width: 100%;
-    height: 400px;
-}
+   
 
-img {
-    
-}
+
+
 
 
 }
