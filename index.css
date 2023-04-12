@@ -128,7 +128,6 @@ html::before{
 .yarn,
 .concept,
 .back-img{
-    content: ' ';
     display: block;
     background-repeat: no-repeat; 
 	background-size:cover; 
