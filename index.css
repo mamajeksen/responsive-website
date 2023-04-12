@@ -86,7 +86,10 @@ a:active {
 /* ----- LAYOUT ----- */
 
  
-
+section,
+footer {
+    background-color: #fffdfb;
+}
 header, 
 .section-two {
     background-color: #CDCBB5;
