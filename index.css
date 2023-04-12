@@ -128,7 +128,7 @@ header,
 	background-size:cover; 
     background-position: center;
     height: 30%; width: 100%;
-    background-attachment: scroll;
+    position: fixed;
     z-index: -10; 
 }
 
