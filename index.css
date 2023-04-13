@@ -97,7 +97,7 @@ header,
 .section-two {
     background-color: #CDCBB5;
     
-    padding: 1.25em 0 0.5em 0;
+    padding: 1.25em 0 1em 0;
 }
 
 
@@ -156,7 +156,6 @@ header,
     background-image: url(images/garn.jpeg);
     background-position: center;
     background-size: cover;
-
 } 
 
 
@@ -286,9 +285,7 @@ ul {
         background-repeat: no-repeat; 
         background-size:cover; 
         background-position: center;
-        height: 30%; width: 100%;
         background-attachment: fixed;
-        z-index: -10; 
     }
 
 
